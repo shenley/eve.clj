@@ -1,6 +1,0 @@
-[2017-02-26 10:55:09,613][INFO][wallet.eve] Querying API:  https://api.eveonline.com/char/WalletJournal.xml.aspx?rowCount=2560&keyID=6029068&vCode=xL3RcCPeFUauz93nqGsxZpsiMMWOHa42Yaco4WixKxp5yUX608z4SiijvsONm01v
-[2017-02-26 10:55:11,219][INFO][wallet.eve] Batch size:  279
-[2017-02-26 10:55:11,219][INFO][wallet.eve] Starting refd:  nil
-[2017-02-26 10:55:11,224][INFO][wallet.eve] Querying API:  https://api.eveonline.com/char/WalletJournal.xml.aspx?fromID=13622651609&rowCount=2560&keyID=6029068&vCode=xL3RcCPeFUauz93nqGsxZpsiMMWOHa42Yaco4WixKxp5yUX608z4SiijvsONm01v
-[2017-02-26 10:55:11,765][INFO][wallet.eve] Batch size:  0
-[2017-02-26 10:55:11,766][INFO][wallet.eve] Starting refd:  13622651609
