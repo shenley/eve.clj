@@ -3,8 +3,8 @@
   (:require [clojure.data.xml :as xml]
             [clojure.string :as str]))
 
-(def api {:keyID "6026950"
-          :vCode "Pcma9PzxQ1fhaH1RdAMnZsoMCLdsMCuZCW4UfIMkZ28xH02At7mmR9qZMkuEbInz"})
+(def api {:keyID "<opsec>"
+          :vCode "<opsec>"})
 
 (def eve-api-url "https://api.eveonline.com/char/WalletJournal.xml.aspx")
 
