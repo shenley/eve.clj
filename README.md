@@ -1,36 +1,28 @@
 # wallet
 
-FIXME: description
-
-## Installation
-
-Download from http://example.com/FIXME.
+Will be evolving over time. Currently it can pull market transaction for characters and corporations, and apply some filters.
 
 ## Usage
 
-FIXME: explanation
+REPL usage only for now. Maybe I'll make a simple text UI as well :D. This is meant to be a library for use in other applications.
 
-    $ java -jar wallet-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
 
 ## Examples
 
-...
+Get totals for all transactions of type "85" (Bounty Prizes) in the time range (previous week)
 
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+```clojure
+(eve.wallet/balance-info 
+              {:keyID "<key id>"
+               :vCode "<verification code>"}
+              {:refTypeID (partial = "85")
+               :date (fn [date]
+                       (t/after? (f/parse date) (t/minus (t/now) (t/weeks 1))))})
+```
 
 ## License
 
-Copyright © 2017 FIXME
+Copyright © 2017 Sean Henley
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
