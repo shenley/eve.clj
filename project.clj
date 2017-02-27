@@ -5,6 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [org.clojure/data.xml "0.2.0-alpha2"]
+                 [clj-time "0.13.0"]
                  ;; Logging specific deps
                  [org.clojure/tools.logging "0.3.1"]
                  [org.slf4j/slf4j-log4j12 "1.7.1"]
@@ -12,6 +13,6 @@
                                                     javax.jms/jms
                                                     com.sun.jmdk/jmxtools
                                                     com.sun.jmx/jmxri]]]
-  :main ^:skip-aot wallet.core
+  :main ^:skip-aot eve.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})

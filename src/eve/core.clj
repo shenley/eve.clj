@@ -1,5 +1,5 @@
-(ns wallet.core
-  (:require [wallet.eve :as eve])
+(ns eve.core
+  (:require [eve.wallet :as wallet])
   (:gen-class))
 
 (defn -main
